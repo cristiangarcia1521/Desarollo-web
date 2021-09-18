@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario contacto</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div>
+        <h2>Contactános</h2>
+        <form class="formulario" action="#" method="">
+            <legend>Completa todos los campos</legend>
+
+            <div class="contenedor-campos">
+                <div class="campo">
+                    <label>Nombre</label>
+
+                    <input type="text" name="nombre" placeholder="Nombre" required>
+                </div>
+                <div class="campo">
+                    <label>Teléfono</label>
+
+                    <input type="tel" name="telefono" placeholder="Teléfono">
+                </div>
+                <div class="campo">
+                    <label>Correo</label>
+
+                    <input type="mail" name="correo" placeholder="Mail">
+                </div>
+
+                <div class="campo">
+                    <label>Ciudad</label>
+                    <select name="ciudad" id="ciudad">
+                        <option value="volvo">Bogotá</option>
+                        <option value="saab">Medellin</option>
+                        <option value="opel">Cali</option>
+                    </select>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="politicas" name="politicas" value="politicas">
+                    <label for="politicas"> Acepto las politicas y terminos de privacidad</label>
+                </div>
+
+            </div>
+            <div class="enviar">
+                <input class="boton" type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
+    </div>
+
+</body>
+
+</html>
